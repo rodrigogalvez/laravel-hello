@@ -7,7 +7,7 @@
 </head>
 <body>
     <nav>Menu aplicación</nav>
-    <head>Cabecera</head>
+    <head>Cabecera - con logotipo de la empresa</head>
     @yield('content')
     <footer>Información de contacto</footer>
 </body>
