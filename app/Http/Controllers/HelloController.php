@@ -8,7 +8,9 @@ use Illuminate\View\View;
 class HelloController extends Controller
 {
     /** 
-     * Mostrar saludo
+     * Mostrar saludo para un nombre específico.
+     * 
+     * @param $name Nombre de la persona a saludar.
      */
     public function show(string $name): view {
         return view('hello', ['name'=>$name]);
